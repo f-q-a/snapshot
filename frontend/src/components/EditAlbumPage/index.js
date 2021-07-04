@@ -23,7 +23,6 @@ function EditAlbumPage() {
         <Redirect to="/" />
     );
 
-    console.log(id);
     const handleSubmit = (e) => {
         e.preventDefault();
         setErrors([]);

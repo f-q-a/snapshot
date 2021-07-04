@@ -23,9 +23,7 @@ function EditCommentPage() {
     if (!sessionUser) return (
         <Redirect to="/" />
     );
-    console.log();
 
-    console.log(photoId, commentId);
     const handleSubmit = (e) => {
         e.preventDefault();
         setErrors([]);

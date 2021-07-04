@@ -22,7 +22,6 @@ const validateSignup = [
       return new Promise((resolve, reject) => {
         User.findOne({ where: { email: req.body.email } })
           .then((res) => {
-            console.log("res.....", res);
             if (res) {
               reject("Email already taken");
             } else {

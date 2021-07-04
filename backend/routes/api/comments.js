@@ -38,7 +38,6 @@ router.post('/', asyncHandler(async (req, res, next) => {
 
 router.post('/:id(\\d+)/edit', asyncHandler(async (req, res, next) => {
     const { photo_id, body } = req.body;
-    console.log(body);
     const id = parseInt(req.params.id, 10);
     const comment = await Comment.findByPk(id);
     await comment.update({body: body});

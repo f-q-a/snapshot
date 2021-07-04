@@ -15,9 +15,9 @@ const router = express.Router();
 // GET ALL PHOTOS
 
 router.get('/', asyncHandler(async (req, res, next) => {
-    console.log(`Did we make it?`)
+
     const photos = await Photo.findAll();
-    console.log(photos)
+    
     return res.json(photos)
     }));
 

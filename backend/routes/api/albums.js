@@ -27,7 +27,6 @@ router.get('/', asyncHandler(async (req, res, next) => {
 
 router.post('/new', asyncHandler(async (req, res, next) => {
     const { user_id, title } = req.body;
-    console.log(user_id, title);
     const album = await Album.create({
         user_id: user_id,
         title: title,

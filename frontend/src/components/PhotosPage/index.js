@@ -22,15 +22,11 @@ function PhotosPage() {
     let title;
     Object.values(album).forEach(el => {
         if(el[`id`] === Number(id)){
-            console.log(el.title);
             title = el.title;
         }
     })
-    console.log(title)
-    console.log(photos)
     let currPhotos = Object.values(photos).filter((photo) => photo.album_id === Number(id));
     let permittedValues = currPhotos.map(value => [value.id, value.img_url]);
-    console.log('test', permittedValues);
     if(!title || !permittedValues){
         return null;
     }

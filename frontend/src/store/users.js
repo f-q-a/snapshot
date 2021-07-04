@@ -17,7 +17,6 @@ const initialState = {
 };
 
 function reducer(state = initialState, action) {
-  console.log(action);
   switch (action.type) {
     case GET_USERS:
       const allUsers = {};
