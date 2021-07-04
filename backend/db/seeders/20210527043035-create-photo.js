@@ -6,29 +6,29 @@ module.exports = {
       "Photos",
       [
         {
-          album_id: 9,
+          album_id: 1,
           img_url: faker.image.imageUrl(300, 300, "animals", true)
         },
         {
-          album_id: 9,
+          album_id: 1,
           img_url: faker.image.imageUrl(300, 300, "animals", true)
         },
         {
-          album_id: 9,
+          album_id: 2,
           img_url: faker.image.imageUrl(300, 300, "animals", true)
         },
         {
-          album_id: 9,
+          album_id: 2,
           img_url: faker.image.imageUrl(300, 300, "animals", true)
         },{
-          album_id: 9,
+          album_id: 3,
           img_url: faker.image.imageUrl(300, 300, "animals", true)
         },
         {
-          album_id: 9,
+          album_id: 3,
           img_url: faker.image.animals(),
         },{
-          album_id: 9,
+          album_id: 3,
           img_url: faker.image.animals(),
         },
         {
