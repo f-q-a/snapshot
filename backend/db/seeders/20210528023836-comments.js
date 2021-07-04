@@ -7,85 +7,85 @@ module.exports = {
       [
         {
           user_id: 1,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 2,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 3,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 2,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 3,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 1,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 2,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 3,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 1,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 2,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 3,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 1,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 2,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
         {
           user_id: 3,
-          photo_id: 33,
+          photo_id: 3,
           body: faker.lorem.sentences(3),
 
         },
