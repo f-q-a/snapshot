@@ -32,7 +32,7 @@ module.exports = {
           img_url: faker.image.animals(),
         },
         {
-          album_id: 9,
+          album_id: 3,
           img_url: faker.image.animals(),
         },
       ],
